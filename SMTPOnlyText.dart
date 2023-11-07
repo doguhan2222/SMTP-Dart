@@ -10,7 +10,7 @@ class SMTPOnlyText {
     final username = 'YOURMAIL@YOURDOMAINADRESS';// its your email adress , created on hosting.
     final password = 'PASSWROD';        // its passworf of your email adress , created on domain
 
-    SecureSocket.connect('mail.doguhanay.com.tr',
+    SecureSocket.connect('mail.YOURDOMAINADRESS',
       465,// its port number . Check your Secure SSL/TLS Settings on hosting panel.
     ).then((socket) {
       socket.writeln("EHLO mail.YOURDOMAINADRESS");
