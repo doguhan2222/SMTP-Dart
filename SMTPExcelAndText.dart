@@ -23,7 +23,7 @@ class SmtpExcelAndText{
     final excelFilePath = '${appPath.path}/excelDosyalari/deneme_excel.xlsx';
 
                         // MAIL.YOURDOMAINADRESS
-    SecureSocket.connect('mail.YOURDOMAINADRESS', 465).then((socket) {
+    SecureSocket.connect('mail.YOURDOMAINADRESS', 465).then((socket) {// its port number . Check your Secure SSL/TLS Settings on hosting panel.
                         // MAIL.YOURDOMAINADRESS
       socket.writeln("EHLO mail.YOURDOMAINADRESS");
       socket.writeln("AUTH LOGIN " + base64.encode(utf8.encode(username)));//CONVERT YOUR USERNAME TO BASE64
