@@ -1,5 +1,7 @@
-The three classes included in this project allow you to send mail in Excel, Excel and text, and text only, using SMTP (Simple Mail Transfer Protocol) in Dart language, without the need for any additional packages. In this way, you can transmit your data within the project via email without any trust issues, without needing a package made by third parties.
-![GitHub Repo stars](https://img.shields.io/github/stars/[user-name]/[BreadcrumbsSMTP-Dart-No-Package
-]?color=[override-color]&label=[override-label]&logo=[named-logo]&logoColor=[logo-color]&style=[style])
-![Github downloads](https://img.shields.io/github/downloads/[doguhan2222]/[BreadcrumbsSMTP-Dart-No-Package
-]/total?color=[override-color]&label=[override-label]&logo=[named-logo]&logoColor=[logo-color]&style=[style])
+# Email Sending Classes in Dart for Excel and Text 
+## Overview
+A project composed of three classes that enable the transmission of mail in Excel, Excel with text, and text only formats via SMTP (Simple Mail Transfer Protocol) in Dart language. 
+
+## Features
+This solution provides you with the capacity to transfer data via email within the project, eliminating any trust issues. It operates independently, without requiring any additional packages developed by third parties. 
+
