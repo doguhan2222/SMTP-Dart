@@ -7,7 +7,7 @@ import 'package:path_provider/path_provider.dart';
 *  path_provider: ^2.0.15   IMPORT PATHPROVIDER TO PUBSPEC.YAML FOR GET EXCEL FILE PATH ON YOUR DEVICE.
 *
 *   final excelFilePath = '${uygulamaYolu.path}/excelDosyalari/deneme_excel.xlsx';
-*   I CREATED 'excelDosyalari` FOLDER in com.example.example / app_flutter / excelDosyalari / deneme_excel.xlsx
+*   I CREATED 'excelDosyalari` FOLDER in data / data/ com.example.example / app_flutter / excelDosyalari / deneme_excel.xlsx
 *   AND CREATED MY 'deneme_excel.xlsx' EXCEL FILE THERE. GETTING PATH AND CONVERT BASE64  .
 *
 */
