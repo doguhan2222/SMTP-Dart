@@ -16,7 +16,7 @@ class SmtpExcelAndText{
 
 
   // Email with text content and Excel file
-  static void SMTPEmailAndText() async {
+  static void SMTPExcelAndText() async {
     final username = 'YOURMAIL@YOURDOMAINADRESS';// its your email adress , created on hosting.
     final password = 'PASSWROD';        // its passworf of your email adress , created on domain
     Directory appPath = await getApplicationDocumentsDirectory();
